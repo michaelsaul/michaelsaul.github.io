@@ -1,7 +1,6 @@
 _site
 _drafts
 node_modules
-package.json
 
 # OS generated files #
 ######################
