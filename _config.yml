@@ -9,7 +9,11 @@ twitter_username: michael_saul
 github_username:  michaelsaul
 facebook_username:  michael.saul
 linkedin_username: michaelsaul01
-google_analytics_tracking_id: UA-62107216-1
+
+analytics:
+  provider: google
+  google:
+    tracking_id: "UA-62107216-1"
 
 # Build settings
 markdown: kramdown
