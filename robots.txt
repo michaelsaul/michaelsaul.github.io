@@ -1,2 +1,4 @@
+Sitemap: http://michaelsaul.me/sitemap.xml
+
 User-agent: *
 Disallow:
