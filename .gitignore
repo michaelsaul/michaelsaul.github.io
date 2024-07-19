@@ -1,6 +1,9 @@
 _site
 _drafts
+.sass-cache
 node_modules
+Gemfile.lock
+*.gem
 
 # OS generated files #
 ######################

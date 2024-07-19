@@ -1,0 +1,59 @@
+- company: Instabase
+  link: https://instabase.com
+  job_title: Cloud Solution Architect
+  dates: January 2023 - Present
+  description: |
+    As a Cloud Architect for Instabase, I work with customers, Sales Engineers, and Engineering to ensure that the Instabase platform can be deployed in both customer environments and in our managed SaaS platform.
+    I enable customers to deploy the Instabase platform as a complex, scalable, cloud native Kubernetes application. This includes integrating all aspects of infrastructure and support for machine learning (ML), model training, and large language models (LLMs). In addition, I work with customers to integrate our solutions into their upstream and downstream systems and act as a customer advocate to drive internal change to better meet our customers' needs.
+    Internally, I support our go to market team and sales engineers to understand complex, multi-discipline challenges that customers might face in implementing or integrating the Instabase platform in their environments.
+    To better enable scale, I produce internal and external documentation on topics of infrastructure, deployment, integration, and CI/CD pipelines.
+    I have also developed tooling for CI/CD integrations in python, infrastructure as code in terraform, and various scripts in bash.
+
+- company: Microsoft
+  link: https://www.microsoft.com
+  job_title: Azure Solutions Director
+  dates: November 2017 - January 2023
+  description: |
+    As a member of the Strategic Partnerships Team, I worked with the largest, most strategic Azure cloud opportunities within Microsoft.
+    My technical role was to support strategic pursuits and deals across the entire company. My responsibilities included technical data gathering, support for Account Directors and other teams within Microsoft. I used my understanding of our products, the customer position, and industry experience to perform analysis of applications and their technical requirements, synthesize this into technical architectures, detailed consumption plans, and supporting technical documentation for large Azure deals.
+    Supporting these large deals required interaction with customers at various levels, from CIO and IT leadership to individual technical contributors. I further interacted with members of Azure Global Engineering, Microsoft Finance, and Sales Leadership to advocate for the customers' technical requirements as well as to bring agreement between Microsoft and the customer for a cloud migration plan going forward. 
+
+- company: Microsoft
+  link: https://www.microsoft.com
+  job_title: Cloud Solution Architect
+  dates: July 2016 - November 2017
+  description: |
+    As a Cloud Solution Architect, I worked with targeted Enterprise customers and helped drive initiatives for digital transformation by leveraging the Microsoft Azure platform.
+    My role was a technical, customer facing role that was accountable for the end-to-end customer cloud deployment experience. As a CSA, I owned the Azure technical customer engagement including architectural design sessions, specific implementation projects and proofs of concept.
+    My key responsibilities included: driving the deployment of the customers' workloads into Azure and increasing their consumption of the platform. Establishing deep relationships with key IT decision makers, who drive long-term cloud adoption within their company. Identifying, validating, and growing opportunities to accelerate consumption in high potential customer accounts. Leading deployment of projects, creation of collateral, and training of sellers and partners in my area of specialization.
+    In addition, I was involved with and presented at the SoCal Microsoft Azure User Group.
+
+- company: Microsoft
+  link: https://www.microsoft.com
+  job_title: Azure Technology Solutions Professional
+  dates: November 2015 - July 2016
+  description: |
+    As a Technical Solutions Professional, I worked with customers and field sales teams to deliver technical pre-sales expertise as part of the Azure sales process.
+    Using my deep technical understanding of the Azure platform, I worked with customers to ensure that the correct products and solutions would be used in the most effective manner resulting in my customers' ability to achieve more.
+    Working with the field sales team, I was responsible for technical thought leadership, education, and execution of proofs of concept.
+
+- company: Cisco Systems
+  link: https://www.cisco.com
+  job_title: Cloud and Data Center Technical Solutions Architect
+  dates: May 2013 - October 2015
+  description: |
+    Datacenter TSA for all DC technologies. I worked with enterprise customers to understand business needs and designed and helped implement new and improved datacenter technology, software, management, and processes. I also collaborated with OpenStack Team to deploy private cloud for enterprise customers.
+
+- company: Cisco Systems
+  link: https://www.cisco.com
+  job_title: Data Center Consulting System Engineer
+  dates: April 2010 - May 2013
+  description: |
+    My role was as Datacenter Consulting Systems Engineer and I worked with Cisco Unified Computing System, MDS SAN, Virtualization, and Cloud Services.
+
+- company: Hewlett-Packard
+  link: https://www.hp.com
+  job_title: Infrastructure Architect
+  dates: March 2007 - April 2010
+  description: |
+    I started my vendor career at HP as a pre-sales architect working with ISS Products. My focus was on HP BladeSystem, ProLiant, HPC, and Management Software.

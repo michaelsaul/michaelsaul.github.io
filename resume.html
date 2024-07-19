@@ -2,51 +2,24 @@
 layout: page
 title: "Resume"
 description: "This is some of what I have done."
-header-img: "img/sunrise-bg.jpg"
 ---
+<span class="resume">
+  <!-- <h2 class="section-heading">Summary</h2>
+  <p>I have spent my career finding ways to apply technology solutions to a broad variety of challenges. My passion is for discovering new technologies and leveraging them in creative ways to solve real world challenges.</p>
+  <p>At various points, I have supported fighting robots, the now defunct mortgage industry, marketing and entertainment, and the application of open-source software and cloud infrastructure. Today, I take those experiences and combine them with new technologies available in the marketplace. My superpower is to take these new technologies and to translate them into easy-to-understand solutions.</p> -->
 
-<h2>Skills Summary</h2>
-<p>Accomplished technical subject matter expert on server infrastructure, cloud, Linux, and data center technologies; looking to continue a career in enterprise-class data center infrastructure and to bring leading edge solutions that elevate IT’s role in business success.</p>
+  <h2 class="section-heading">Core competencies</h2>
+  <p>Solution Architecture | Customer Success | Pre-sales Support</br>
+    Cloud Technologies | Enterprise Infrastructure | Technology Integration</p>
 
-<h2>Experience</h2>
-
-<span>
-  <h3>Cisco Systems</h3>
-  <h4>Cloud and Data Center Technical Solution Architect</h4>
-  <h5>May, 2013 - Present</h5>
-  <ul>
-    <li>Technical architect for enterprise customers across Southern California responsible for long term, strategic data center architectures.</li>
-    <li>Worked with Account Manager, Generalist and Specialist System Engineers, and Product Sales Specialists to craft a long-term 3 to 5 year architecture for cloud.</li>
-    <li>Responsible for messaging and sales strategy of OpenStack.</li>
-    <li>Responsible for crafting messaging and training of Cisco Intercloud strategy to generalist AM and SE community.</li>
-    <li>Involved with business unit “Jedi” teams to provide front line subject matter expertise for Nexus 1000V and Intercloud Fabric.</li>
-  </ul>
-</span>
+  <h2 class="section-heading">Professional Experience</h2>
 
 <span>
-  <h3>Cisco Systems</h3>
-  <h4>Data Center Consulting System Engineer</h4>
-  <h5>April, 2010 - May, 2013</h5>
-  <ul>
-    <li>Brought on as one of the first 25 field sales System Engineers to focus on Cisco Unified Computing System.</li>
-    <li>Helped to grow UCS from startup to a $2 Billon run rate business.</li>
-    <li>Worked with Enterprise customers across the West region to design and implement solutions built on UCS platform.</li>
-    <li>Grew subject mater expertise to include Nexus network infrastructure, MDS SAN switching, and virtual networking services.</li>
-    <li>Directly involved with automation and private cloud deployments built using Cisco technologies.</li>
-  </ul>
-</span>
-
-<span>
-  <h3>Hewlett-Packard</h3>
-  <h4>Presales Technical Consultant</h4>
-  <h5>March, 2007 - April 2010</h5>
-    <ul>
-      <li>Function in a trusted advisor capacity at global enterprise, corporate and federal customers to design and integrate data center solutions.</li>
-      <li>Subject matter expert on ProLiant server platform, focusing on BladeSystem technologies.</li>
-      <li>Engaged at proof-of-concept and architecture development stages, providing best practice, hands-on knowledge transfer, and solutions architecture.</li>
-      <li>Local subject matter expert for networking and SAN technologies including HP Virtual Connect.</li>
-      <li>Local designated resource for High Performance Computing and Scalable Computing Infrastructure.</li>
-      <li>Participated in voluntary role as Management Software Ambassador, providing expertise to customers and internal staff.</li>
-      <li>Greater than 95% success rate in closing sales when engaged.</li>
-    </ul>
+  {% for job in site.data.jobs %}
+  <span class="job">
+    <p><span class="date-company">{{ job.dates }} | <a href="{{ job.link}}" target="_blank">{{ job.company }}</a></span></br>
+    <span class="job-title">{{ job.job_title }}</span></p>
+    <p>{{ job.description }}</p>
+  </span>
+  {% endfor %}
 </span>
