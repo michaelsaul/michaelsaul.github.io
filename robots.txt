@@ -1,4 +1,4 @@
-Sitemap: http://michaelsaul.me/sitemap.xml
+Sitemap: https://michael.saul.cloud/sitemap.xml
 
 User-agent: *
 Disallow:
