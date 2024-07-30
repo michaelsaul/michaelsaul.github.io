@@ -3,7 +3,7 @@ layout: page
 title: "Resume"
 description: "This is some of what I have done."
 ---
-<span class="resume">
+<div class="resume">
   <!-- <h2 class="section-heading">Summary</h2>
   <p>I have spent my career finding ways to apply technology solutions to a broad variety of challenges. My passion is for discovering new technologies and leveraging them in creative ways to solve real world challenges.</p>
   <p>At various points, I have supported fighting robots, the now defunct mortgage industry, marketing and entertainment, and the application of open-source software and cloud infrastructure. Today, I take those experiences and combine them with new technologies available in the marketplace. My superpower is to take these new technologies and to translate them into easy-to-understand solutions.</p> -->
@@ -14,12 +14,12 @@ description: "This is some of what I have done."
 
   <h2 class="section-heading">Professional Experience</h2>
 
-<span>
   {% for job in site.data.jobs %}
-  <span class="job">
-    <p><span class="date-company">{{ job.dates }} | <a href="{{ job.link}}" target="_blank">{{ job.company }}</a></span></br>
-    <span class="job-title">{{ job.job_title }}</span></p>
-    <p>{{ job.description }}</p>
-  </span>
+  <div class="job">
+    <h3><a href="{{ job.link}}" target="_blank">{{ job.company }}</a></h3>
+    <div class="job-title">{{ job.job_title }}</div>
+    <div class="date">{{ job.dates }}</div>
+    {{ job.description | newline_to_br }}
+  </div>
   {% endfor %}
-</span>
+</div>
